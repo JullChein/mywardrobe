@@ -1,45 +1,4 @@
-@import url(reset.scss);
-
-$color: #FFA971;
-
-.header {
-  height: 200px;
-  background-color: $color;
-}
-
-.footer {
-  background-color: $color;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  color: #fff;
-  text-align: center;
-}
-
-.socialmedia-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 16px;
-}
-
-.socialmedia-list li img {
-  height: 24px;
-  width: 24px;
-}
-
-.footer p {
-  font-size: 20px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import "./base";
+@import "./reset";
+@import "./variable";
+@import "./layout";
